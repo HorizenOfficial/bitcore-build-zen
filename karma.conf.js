@@ -52,7 +52,7 @@ module.exports = function(config) {
     //    port: 9876,  // karma web server port
     autoWatch: false,
     files: [
-      '../../tests.js'
+      '../../tests.js' // possibly needs to be adjusted
     ],
     plugins: [
       'karma-mocha',
